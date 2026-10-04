@@ -1,0 +1,16 @@
+LAKEHOUSE LAB — PUBLIC STUDY APP
+
+Repository: https://github.com/westmonroews-spec/lakehouse-lab-certification-practice
+
+The public/ directory contains the complete static website with 327 reviewed questions. No server-side app, database, API keys, or shared progress is required. Every visitor keeps their own progress, bookmarks and imported questions in their browser.
+
+Each new round shuffles its questions. After finishing, Start another shuffled round repeats the same question set in a new order. Resume keeps the saved order. Green numbered buttons mean correct, red mean incorrect, and neutral buttons mean unanswered. Timed quizzes reveal result colors after completion.
+
+DEPLOYMENT
+The .github/workflows/publish.yml workflow publishes public/ through GitHub Pages after a push to main or a manual workflow run. Enable Settings > Pages > Source: GitHub Actions. The workflow's deployment output provides the public HTTPS URL.
+
+PROGRESS TRANSFER
+Each browser and hosting origin has its own local progress. Export progress from the local app and restore it on the public site to transfer attempts and bookmarks. Imported questions must be exported separately as a question bank.
+
+REVIEW SCOPE
+The bank contains an independent documentation-based technical review, not an official certification answer key. Original PDF excerpts are preserved in the question views. Corrected study versions and required context are labeled.
