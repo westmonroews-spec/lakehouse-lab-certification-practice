@@ -14,3 +14,6 @@ Each browser and hosting origin has its own local progress. Export progress from
 
 REVIEW SCOPE
 The bank contains an independent documentation-based technical review, not an official certification answer key. Original PDF excerpts are preserved in the question views. Corrected study versions and required context are labeled.
+
+DISPLAY THEME
+The app opens in dark mode by default. Use the Light mode / Dark mode button at the top to change it. Your choice is saved in this browser without resetting your progress or current answer. PDF excerpts adapt to the dark theme too.
