@@ -42,21 +42,24 @@
 :root[data-theme="dark"] .study-context{background:#223246;border-color:#4a6685;color:#c9d9ed}
 :root[data-theme="dark"] .progress{background:#2c3b48}
 :root[data-theme="dark"] .answer.selected{background:#213e3b}
-:root[data-theme="dark"] .answer.correct,:root[data-theme="dark"] .feedback{background:#1b352c;border-color:#437c5e}
+:root[data-theme="dark"] .answer.correct{background:#08653b;border-color:#22c55e;color:#f0fff4}
+:root[data-theme="dark"] .answer.correct .letter{color:#f0fff4}
+:root[data-theme="dark"] .feedback:not(.wrong):not(.review){background:#08452b;border-color:#22c55e}
+:root[data-theme="dark"] .feedback:not(.wrong):not(.review)>h3{color:#4ade80}
 :root[data-theme="dark"] .answer.wrong,:root[data-theme="dark"] .feedback.wrong{background:#3b272c;border-color:#a3606a}
 :root[data-theme="dark"] .option-reason{background:#18242d;border-color:#778b9c}
-:root[data-theme="dark"] .option-reason.is-correct{border-color:#66c992}
+:root[data-theme="dark"] .option-reason.is-correct{border-color:#22c55e}
 :root[data-theme="dark"] .table tbody tr:hover{background:#223340}
 :root[data-theme="dark"] .import-zone{background:#182b32;border-color:#43616b}
 :root[data-theme="dark"] pre,:root[data-theme="dark"] .question-code{background:#0e1b25;color:#d5e6ee}
 /* PDF excerpts are monochrome: dim their paper while preserving readable text. */
 :root[data-theme="dark"] .source-image{filter:invert(1) brightness(1.5);mix-blend-mode:screen}
-:root[data-theme="dark"] .question-nav button.answer-correct{background:#214532;border-color:#61bf86;color:#b5f2cc}
+:root[data-theme="dark"] .question-nav button.answer-correct{background:#08783e;border-color:#22c55e;color:#ffffff}
 :root[data-theme="dark"] .question-nav button.answer-incorrect{background:#4a2a32;border-color:#dc7c88;color:#ffc4cb}
 :root[data-theme="dark"] .question-nav button.answered{background:#293e5a;border-color:#7e9bbe;color:#c4dafa}
 :root[data-theme="dark"] .question-nav button.current{outline-color:#c6e3ec}
 :root[data-theme="dark"] .question-nav button.unanswered.current{background:#2c424f}
-:root[data-theme="dark"] .legend-correct{color:#a0e5ba}
+:root[data-theme="dark"] .legend-correct{color:#4ade80}
 :root[data-theme="dark"] .legend-incorrect{color:#ffb5bf}
 :root[data-theme="dark"] .legend-answered{color:#c4dafa}
 :root[data-theme="dark"] input::placeholder,:root[data-theme="dark"] textarea::placeholder{color:#94a6b6;opacity:1}
