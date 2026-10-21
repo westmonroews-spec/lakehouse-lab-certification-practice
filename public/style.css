@@ -107,3 +107,17 @@
 @media print{.source-toolbar,.source-help{display:none}.source-viewport{max-height:none;overflow:visible}.source-pages{width:100%!important}.question-code,.answer .code-snippet{white-space:pre-wrap;overflow-wrap:anywhere}}
 
 .code-help{font-size:12px;color:var(--muted);margin:14px 0 -8px}.code-snippet{scrollbar-width:thin}.code-snippet:focus-visible,.source-viewport:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+
+/* Focus affects question screens only; required context and grading stay in the card. */
+.focus-controls{display:flex;justify-content:flex-end;margin:-10px -10px 8px}
+.focus-controls button{font-size:13px;min-height:44px;color:var(--accent)}
+.focus-mode .shell{display:block}
+.focus-mode .sidebar,.focus-mode .topbar{display:none}
+.focus-mode .main{max-width:1040px;padding:24px 24px 48px;margin:0 auto}
+.focus-mode .session-layout>:not(.question-card){display:none}
+.focus-mode .question-meta,.focus-mode .question-card>details,.focus-mode .question-card>.notice.info{display:none}
+.focus-mode .question-card{scroll-margin-top:16px}
+.focus-mode .question-text{max-width:none;margin-top:12px}
+@media(max-width:700px){.focus-mode .main{padding:12px 8px 24px}.focus-mode .question-card{padding:14px 12px}.focus-controls{margin:-6px -4px 8px}.focus-mode .question-card{scroll-margin-top:8px}}
+@media print{.focus-controls{display:none}}

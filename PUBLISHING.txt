@@ -20,3 +20,6 @@ The app opens in dark mode by default. Use the Light mode / Dark mode button at 
 
 PHONE AND TABLET LAYOUT
 Open the same public URL on your phone; the layout adjusts automatically. PDF line breaks no longer interrupt ordinary sentences. Code retains its indentation and scrolls sideways when needed. Original PDF images have Readable, Fit width and Larger controls. The answer key uses stacked cards on small screens.
+
+FOCUS MODE
+Choose Focus mode at the top of a question card to hide menus and surrounding navigation. The question, required context, answer choices, feedback and previous/next controls remain available. Exit focus or press Escape to return. The preference is saved in this browser; dashboards and results always show normal navigation.
